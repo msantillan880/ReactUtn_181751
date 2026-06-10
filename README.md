@@ -5,7 +5,7 @@ Curso: React UTN 181751 — 2026
 
 Descripción:
 
-- El archivo `index.html` fue abierto mediante Live Server.
+- El archivo `index.html` se abrio utilizando Live Server en el browser.
 - Este proyecto corresponde a la Tarea 1, según el archivo PDF proporcionado.
 
 Archivos relevantes:
