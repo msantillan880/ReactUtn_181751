@@ -1,0 +1,132 @@
+/* Small logo image */
+.logo-small {
+	width: 48px;
+	height: auto;
+	display: inline-block;
+}
+
+
+/* Variables y estilos base */
+:root {
+	--color-principal: #237EBA; /* solicitado */
+	--color-secundario: #ffffff; /* texto blanco */
+	--fuente-base: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--font-size: 20px; /* aumentado para mejor lectura */
+}
+
+body {
+	background-color: var(--color-principal);
+	color: var(--color-secundario);
+	font-family: var(--fuente-base);
+	font-size: var(--font-size);
+	margin: 0;
+	line-height: 1.36;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Tipografías principales */
+h1 {
+	font-size: 2rem;
+	margin: 0.5rem 0;
+}
+h2 {
+	font-size: 1.25rem;
+	margin: 0.75rem 0;
+}
+
+/* Contenedor principal */
+#main-content {
+	max-width: 900px;
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+	flex: 1 0 auto; /* permite que el main crezca y empuje el footer abajo */
+}
+
+/* Menú de navegación */
+.nav-list {
+	list-style: none;
+	padding: 0;
+	margin: 0.5rem 0 1rem 0;
+	display: flex;
+	gap: 1rem;
+}
+.nav-list a {
+	color: var(--color-secundario);
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+	background: rgba(255,255,255,0.08);
+	outline: none;
+}
+
+/* Imagen del artículo */
+.art-image {
+	max-width: 220px;
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	display: block;
+	margin-bottom: 0.4rem;
+	float: right;
+	margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+	.art-image {
+		float: none;
+		max-width: 100%;
+		margin-left: 0;
+	}
+}
+
+/* Formulario */
+.form-contact {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	padding: 0.5rem;
+	border: 1px solid rgba(255,255,255,0.12);
+	border-radius: 6px;
+	background: rgba(255,255,255,0.04);
+}
+.form-contact input,
+.form-contact select,
+.form-contact button {
+	padding: 0.45rem 0.5rem;
+	border: 1px solid rgba(0,0,0,0.08);
+	border-radius: 4px;
+}
+.form-contact button {
+	cursor: pointer;
+	background: var(--color-secundario);
+	color: var(--color-principal);
+	border: none;
+	font-weight: 600;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	padding: 1rem 0;
+	background: rgba(0,0,0,0.02);
+	color: var(--color-secundario);
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+/* Ajustes tipográficos */
+h1 {
+	font-size: 2rem;
+	margin: 0.35rem 0;
+	font-weight: 700;
+}
+h2 {
+	font-size: 1.15rem;
+	margin: 0.4rem 0;
+	font-weight: 600;
+}
