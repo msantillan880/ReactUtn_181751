@@ -22,11 +22,11 @@ Proyecto realizado con React + Vite para practicar hooks a partir de la base del
 
 ## Imagenes de evidencia
 
-Imagen y vista consola Local Storage: [tarea5LocalStorage.png](tarea5LocalStorage.png)
+Imagen y vista consola Local Storage donde se pueden ver los items agregados: [tarea5LocalStorage.png](tarea5LocalStorage.png)
 
 ![Vista del ejercicio](tarea5LocalStorage.png)
 
-Pantalla completa: [tarea5LocalStorage.png](tarea5LocalStorage.png)
+Pantalla completa: [Tarea5.png](Tarea5.png)
 
 ![Vista del ejercicio](tarea5LocalStorage.png)
 
