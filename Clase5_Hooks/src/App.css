@@ -1,0 +1,168 @@
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  text-align: center;
+  padding: 2.25rem 1rem 1rem;
+}
+
+.header h1 {
+  margin-bottom: 0.5rem;
+  color: #102a43;
+}
+
+.header p {
+  margin: 0;
+  color: #334e68;
+}
+
+.tasks-container {
+  width: min(980px, 92%);
+  margin: 0 auto;
+  padding: 1rem 0 2.25rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.panel {
+  background-color: #ffffff;
+  border: 1px solid #d9e2ec;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(16, 42, 67, 0.08);
+}
+
+.panel h2 {
+  margin: 0 0 0.85rem;
+  color: #102a43;
+}
+
+.inline-controls {
+  display: flex;
+  gap: 0.65rem;
+  margin-bottom: 0.75rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #bcccdc;
+  border-radius: 8px;
+  padding: 0.68rem 0.75rem;
+  outline: none;
+  font-size: 0.98rem;
+}
+
+.input:focus {
+  border-color: #3e7cb1;
+  box-shadow: 0 0 0 3px rgba(62, 124, 177, 0.2);
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.68rem 0.9rem;
+  background: #3e7cb1;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: #2f6690;
+}
+
+.btn-danger {
+  background: #b42318;
+}
+
+.btn-danger:hover {
+  background: #912018;
+}
+
+.summary {
+  margin: 0;
+  color: #243b53;
+  font-weight: 600;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.task-item {
+  border: 1px solid #d9e2ec;
+  border-radius: 10px;
+  padding: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.85rem;
+  background: #f8fbff;
+}
+
+.task-title {
+  margin: 0 0 0.2rem;
+  color: #102a43;
+  font-weight: 700;
+}
+
+.task-title--done {
+  text-decoration: line-through;
+  color: #627d98;
+}
+
+.task-meta {
+  color: #627d98;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.55rem;
+}
+
+.empty {
+  margin: 0;
+  color: #486581;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem 1rem 1.5rem;
+  color: #334e68;
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding-top: 1.75rem;
+  }
+
+  .header h1 {
+    font-size: 1.7rem;
+  }
+
+  .inline-controls {
+    flex-direction: column;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-actions {
+    width: 100%;
+  }
+
+  .task-actions .btn {
+    width: 100%;
+  }
+}
