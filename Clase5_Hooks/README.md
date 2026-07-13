@@ -28,7 +28,7 @@ Imagen y vista consola Local Storage donde se pueden ver los items agregados: [t
 
 Pantalla completa: [Tarea5.png](Tarea5.png)
 
-![Vista del ejercicio](tarea5LocalStorage.png)
+![Vista del ejercicio](Tarea5.png)
 
 ## Instalacion y ejecucion
 
