@@ -26,7 +26,7 @@ Imagen y vista consola Local Storage: [tarea5LocalStorage.png](tarea5LocalStorag
 
 ![Vista del ejercicio](tarea5LocalStorage.png)
 
-Pantalla compel: [tarea5LocalStorage.png](tarea5LocalStorage.png)
+Pantalla completa: [tarea5LocalStorage.png](tarea5LocalStorage.png)
 
 ![Vista del ejercicio](tarea5LocalStorage.png)
 
@@ -44,7 +44,7 @@ Pantalla compel: [tarea5LocalStorage.png](tarea5LocalStorage.png)
 
    npm run build
 
-## Fuentes
+## Creditos
 
 Alumno: Santillan Marcelo  
 Curso: 181751
