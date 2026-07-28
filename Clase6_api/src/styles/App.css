@@ -1,0 +1,41 @@
+.app {
+  width: min(980px, 92vw);
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.app__header {
+  text-align: left;
+  margin-bottom: 1.75rem;
+}
+
+.app__eyebrow {
+  margin: 0;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.app__header h1 {
+  margin: 0.45rem 0;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  color: var(--ink);
+}
+
+.app__description {
+  margin: 0;
+  color: var(--ink-soft);
+  max-width: 66ch;
+}
+
+.app__footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--ink-soft);
+}
+
+.app__footer p {
+  margin: 0;
+}
