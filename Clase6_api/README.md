@@ -61,8 +61,8 @@ npm run dev
 
 ## Evidencias de esta entrega
 
-- Vista completa: [apiPantallaCompleta.png](apiPantallaCompleta.png)
-- Uso del filtro: [apiUsoFiltro.png](apiUsoFiltro.png)
+- Vista completa: ![apiPantallaCompleta.png](apiPantallaCompleta.png)
+- Uso del filtro: ![apiUsoFiltro.png](apiUsoFiltro.png)
 
 ## Caso de error
 
@@ -70,12 +70,12 @@ Lo que se ve en la captura:
 
 Cambie API a una URL inválida.
 
-- Vista de API_BASE modificado: [apiCreeError.png](apiCreeError.png)
+- Vista de API_BASE modificado: ![apiCreeError.png](apiCreeError.png)
   Entró al catch.
   Se guardó el mensaje en error.
   loading volvió a false.
   Se renderizó el bloque de error.
-- Vista completa: [apiErrorBrowser.png](apiErrorBrowser.png)
+- Vista en browser: ![apiErrorBrowser.png](apiErrorBrowser.png)
 
 ## Creditos del autor
 
