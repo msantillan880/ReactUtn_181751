@@ -51,7 +51,7 @@ npm run dev
 - Vista ruta dinamica: ![rutadinamica.png](rutadinamica.png)
 - Vista ruta protegida/login (antes): ![rutaprotegidaantes.png](rutaprotegidaantes.png)
 - Vista ruta protegida/login (después): ![rutaprotegidadespuesconlogin.png](rutaprotegidadespuesconlogin.png)
-- Url inexistente: ![rutaprotegidadespuesconlogin.png](rutaprotegidadespuesconlogin.png)
+- Url inexistente: ![urlNoexiste.png](urlNoexiste.png)
 
 ## Creditos del autor
 
